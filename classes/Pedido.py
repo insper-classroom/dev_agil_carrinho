@@ -11,9 +11,11 @@ from classes.PessoaFisica import PessoaFisica
 from classes.Carrinho import Carrinho
 import re
 
-# Modele e implemente a classe Pedido, lembrando que um pedido só pode ser gerado
-# com os dados de uma pessoa, dados de entrega, carrinho e pagamento
+
+
 
 class Pedido:
+    EM_ABERTO = 1
+    PAGO = 2
     pass
     
